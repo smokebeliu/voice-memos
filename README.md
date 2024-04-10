@@ -1,6 +1,8 @@
 ## My Voice Memos
 Web application that enables users to create memos using voice or keyboard input
 
+<img width="403" alt="Снимок экрана 2024-04-10 в 11 19 40" src="https://github.com/smokebeliu/voice-memos/assets/2237055/824c8ea0-a0e9-4ab3-85df-068f0d2ae18f">
+
 ### Features:
 - Create a memo with keyboard/voice input
 - Edit a memo with keyboard/voice input
