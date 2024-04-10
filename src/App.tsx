@@ -33,8 +33,8 @@ export const App = () => {
             </Button>
           </Flex>
 
-          <Divider orientation={'horizontal'} m={'20px 0'} bgColor={'custom.black'} />
-          <Flex overflow={'scroll'} flexDirection={'column'}>
+          <Divider orientation={'horizontal'} mt={'20px'} bgColor={'custom.black'} />
+          <Flex pt={'20px'} overflow={'scroll'} flexDirection={'column'}>
             {isNew && <NoteForm onSave={onSave} onCancel={onCancel} />}
             <Flex flexDirection={'column'} gap={'8px'}>
               {notes.map((note) => {
