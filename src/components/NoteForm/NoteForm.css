@@ -1,0 +1,18 @@
+.pulse {
+    animation: pulse-animation 1.5s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0 var(--chakra-colors-custom-accent-50);
+    }
+    100% {
+        box-shadow: 0 0 0 10px var(--chakra-colors-custom-accent-0);
+    }
+}
+
+textarea:focus, textarea:focus-visible, *[data-focus] {
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: inherit !important;
+}
